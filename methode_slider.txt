@@ -1,0 +1,24 @@
+En gros :
+
+- on a une fonction js qui remplace la valeur du texte et de l'image quand le bouton est pressé.
+
+une classe slider avec un indice1
+
+vu que les 2 autres sont en display none il faut mettre en display flex ou je sais plus (revoir la doc Firefox) => || 1 ||en gros le rerendre visible.
+
+|| 2 || Il faut rendre plus visibles les autres
+
+
+
+
+
+
+Au final ==> Celui qui est sélectioné est en display flex et les autre sont en none.
+
+
+
+
+
+En réfléchissant j'ai trouvé plus simple :
+
+2 classe, 1 slider et 1 txt en display none et pour que le sélectionné apparaisse il faut que l'id de ce contenue soit passé en display flex.

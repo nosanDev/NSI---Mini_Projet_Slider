@@ -1,0 +1,149 @@
+/* Style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+	background-color: grey; 
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 8px 8px 20px 0px black;
+	padding: 10px 40px;
+	line-height: 20px;
+	transition: ease-out 0.8s;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+button:hover {
+	transition: ease-out 0.8s;
+	box-shadow: none;
+	/* opacity: 80%; */
+	font-weight: 200;
+}
+
+/* ---- */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: grey;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+header div:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 5%;
+}
+
+.slider {
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+	margin: 4% 7% 0% 7%;
+}
+
+#arrow1 {
+	width: 10%;
+	transform: rotate(0.5turn);
+	transition: 0.5s ease-out;
+}
+
+#Pimg img{
+	width: 650px;
+	height: 450px;
+	border-radius: 10%;
+	transition: 1s ease-out;
+}
+
+#Pimg img:hover {
+	filter: grayscale(1);
+	transition: 1s ease-out;
+	transform: scale(98%);
+}
+
+#arrow2 {
+	width: 10%;
+	height: 80%;
+	transition: 0.5s ease-out;
+}
+
+#arrow1:active {
+	transform: scale(90%) rotate(0.5turn);
+	transition: 0.5s ease-out;
+}
+
+#arrow1:hover {
+	transform: scale(90%) rotate(0.5turn);
+	transition: 0.5s ease-out;
+}
+
+#arrow2:active {
+	transform: scale(90%);
+	transition: 0.5s ease-out;
+}
+
+#arrow2:hover {
+	transform: scale(90%);
+	transition: 0.5s ease-out;
+}
+
+.txt {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2%;
+	margin: 2% ;
+}
+
+.txt p{
+	text-align: center;
+	width: 70%;
+}
+
+#slider1 {
+	display: flex;
+}
+
+#txt1 {
+	display: flex;
+}
